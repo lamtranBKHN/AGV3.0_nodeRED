@@ -1,0 +1,3028 @@
+[
+    {
+        "id": "77f7877.e2cfb78",
+        "type": "tab",
+        "label": "AGV - 20.12",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3a995584.ab3d9a",
+        "type": "tab",
+        "label": "Get Data from database",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4c37ea4.c7cd314",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "131b47d9.b692e8",
+        "type": "group",
+        "z": "3a995584.ab3d9a",
+        "name": "Database",
+        "style": {
+            "stroke": "#ffC000",
+            "stroke-opacity": "0.77",
+            "label": true,
+            "fill": "#ffC000",
+            "fill-opacity": "0.32"
+        },
+        "nodes": [
+            "25e965fd.0f69fa",
+            "ce345651.a299a8",
+            "44dfa3e9.94b0fc",
+            "3cb89d54.0f61f2",
+            "1a4531f8.c5e48e",
+            "a35c1448.f88658",
+            "3bfeb906.068ac6",
+            "b3307949.62bb58",
+            "2cfdfaac.c6f6f6",
+            "4a53b186.b32b7",
+            "40abf381.91f52c",
+            "b49f317b.fbaff",
+            "7081929a.2bf4cc",
+            "a56219d8.d37068",
+            "81a506fe.6ac608",
+            "8c429322.ad132",
+            "1c188815.7505d8",
+            "75e6858.c324e7c",
+            "5d22d5de.f9600c",
+            "8a09aa72.4d2bc8",
+            "d8fb32cf.8c764",
+            "fd4b703d.85a77",
+            "a3abfa19.d44738",
+            "9aa00e2.ba24df"
+        ],
+        "x": 28,
+        "y": 19,
+        "w": 1378,
+        "h": 588
+    },
+    {
+        "id": "8c429322.ad132",
+        "type": "group",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "",
+        "style": {
+            "fill": "#ff3f3f",
+            "fill-opacity": "0.27",
+            "label": true
+        },
+        "nodes": [
+            "1be82182.0ca97e",
+            "d2b66545.f820d8",
+            "9b1a4e84.be7"
+        ],
+        "x": 54,
+        "y": 499,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "58791834.427e78",
+        "type": "ui_group",
+        "name": "Manager",
+        "tab": "cdc2e52a.7920c8",
+        "order": 2,
+        "disp": false,
+        "width": "28",
+        "collapse": false
+    },
+    {
+        "id": "fc260c0b.664ca",
+        "type": "ui_group",
+        "name": "NavBar",
+        "tab": "cdc2e52a.7920c8",
+        "order": 1,
+        "disp": false,
+        "width": "3",
+        "collapse": false
+    },
+    {
+        "id": "e0f60492.6850d8",
+        "type": "ui_group",
+        "name": "SO_SIM_Dashboard",
+        "tab": "cdc2e52a.7920c8",
+        "order": 3,
+        "disp": false,
+        "width": "15",
+        "collapse": false
+    },
+    {
+        "id": "a8c7d9a3.586368",
+        "type": "ui_group",
+        "name": "SO_Chart",
+        "tab": "cdc2e52a.7920c8",
+        "order": 5,
+        "disp": false,
+        "width": "13",
+        "collapse": false
+    },
+    {
+        "id": "2e0d4d2d.123722",
+        "type": "ui_group",
+        "name": "SO_Log",
+        "tab": "cdc2e52a.7920c8",
+        "order": 4,
+        "disp": false,
+        "width": "13",
+        "collapse": false
+    },
+    {
+        "id": "b9099129.e3a02",
+        "type": "ui_group",
+        "name": "AS_AGV",
+        "tab": "cdc2e52a.7920c8",
+        "order": 6,
+        "disp": false,
+        "width": "9",
+        "collapse": false
+    },
+    {
+        "id": "24f07f77.93bb3",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "agv",
+        "tz": "",
+        "charset": ""
+    },
+    {
+        "id": "b6e2dbef.bfb018",
+        "type": "ui_group",
+        "name": "AS_AGV_ROTATION",
+        "tab": "cdc2e52a.7920c8",
+        "order": 8,
+        "disp": false,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "7fd55f12.2eabf",
+        "type": "ui_group",
+        "name": "AS_AGV_SETTING",
+        "tab": "cdc2e52a.7920c8",
+        "order": 7,
+        "disp": false,
+        "width": 19,
+        "collapse": false
+    },
+    {
+        "id": "cdc2e52a.7920c8",
+        "type": "ui_tab",
+        "name": "AGV20_12",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a77bc788.df6f78",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b29e788e.10ac18",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.1.68",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "8eafac17.55813",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a8c7d9a3.586368",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c04f7107.e2429",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a8c7d9a3.586368",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e907d14f.e54e6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a8c7d9a3.586368",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "94fd997b.d55db8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "b9099129.e3a02",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "51e2f858.df3a68",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "b9099129.e3a02",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "44f9183.9cd4de8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "7fd55f12.2eabf",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "28142efc.4ac7b2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "7fd55f12.2eabf",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4a8f04ce.5ecc1c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "7fd55f12.2eabf",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "96f821e9.2f7ce",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "7fd55f12.2eabf",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b89a56ca.21a188",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "7fd55f12.2eabf",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "256c8216.f857ce",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "7fd55f12.2eabf",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fd1a7ec1.dcaf5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "7fd55f12.2eabf",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "46dead3e.099d24",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "7fd55f12.2eabf",
+        "order": 17,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "70752b10.710534",
+        "type": "ui_group",
+        "name": "AS_AGV_LOG",
+        "tab": "cdc2e52a.7920c8",
+        "order": 9,
+        "disp": false,
+        "width": "14",
+        "collapse": false
+    },
+    {
+        "id": "51199fe1.21b2a",
+        "type": "ui_group",
+        "name": "AS_AGV_REALTIME_INFO",
+        "tab": "cdc2e52a.7920c8",
+        "order": 10,
+        "disp": false,
+        "width": "19",
+        "collapse": false
+    },
+    {
+        "id": "58b86165.9d8d3",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "agv",
+        "tz": ""
+    },
+    {
+        "id": "5aa96ce1.38d674",
+        "type": "ui_group",
+        "name": "AGV Management  System",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "27",
+        "collapse": false
+    },
+    {
+        "id": "9d42abf8.d28c38",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "agv",
+        "tz": ""
+    },
+    {
+        "id": "76aa67f4.4775c8",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "agv",
+        "tz": ""
+    },
+    {
+        "id": "c8b76f58.8c8b3",
+        "type": "ui_group",
+        "name": "Home Floor Plan",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "15",
+        "collapse": false
+    },
+    {
+        "id": "6ac30a25.9ffc34",
+        "type": "ui_group",
+        "name": "Floorplan test",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false
+    },
+    {
+        "id": "dd11be25.03d7b",
+        "type": "ui_tab",
+        "name": "AGV",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b8a94c90.7c4f5",
+        "type": "ui_tab",
+        "name": "Home Floor Plan",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2804309c.51dd8",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "97c32.d91b93ce",
+        "type": "ui_tab",
+        "name": "SVG",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1cf48f7a.cd9721",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "58791834.427e78",
+        "name": "CSS Style",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .md-button {\n        background-color: #097479;\n        background-image: -webkit-linear-gradient(283deg, rgba(255, 255, 255, 0.1) 50%, transparent 55%),-webkit-linear-gradient(top, rgba(255, 255, 255, 0.15), transparent);\n        border-radius: 8px;\n        box-shadow: 0 0 0 1px #163772 inset,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 2px 0 0 #333797,0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);\n        color: white !important;\n        height: 90%;\n        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);\n        text-decoration: none !important;\n        -webkit-transition: all .2s linear;\n        width: 100%;\n    }\n\n    .md-button:active {\n        background-color: #0c8e94;\n        top: 2px;\n        box-shadow: 0 0 0 1px #163772 inset,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 0 0 0 #333797,0 0 0 1px rgba(0, 0, 0, 0.4),0 0px 8px 1px rgba(0, 0, 0, 0.5);\n    }\n\n    .md-button:hover {\n        background-color: #0c8e94;\n        poisiton: relative;\n        top: -1px;\n        box-shadow: 0 0 0 1px #163772 inset,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 2px 0 0 #333797,0 5px 0 1px rgba(0, 0, 0, 0.4),0 5px 8px 1px rgba(0, 0, 0, 0.5);\n    }\n\n    .md-button:active {\n        background-color: #0c8e94;\n        top: 2px;\n        box-shadow: 0 0 0 1px #163772 inset,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 0 0 0 #333797,0 0 0 1px rgba(0, 0, 0, 0.4),0 0px 8px 1px rgba(0, 0, 0, 0.5);\n    }\n    \n    \n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 170,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99d44312.3c82b",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "58791834.427e78",
+        "name": "Start",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "format": "<md-button id=\"startSystem\" ng-click=\"send({payload: 'start'})\">\n    Start <span class=\"material-icons\">play_arrow</span>\n</md-button>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 150,
+        "y": 1040,
+        "wires": [
+            [
+                "60db46e.e48bfb8"
+            ]
+        ]
+    },
+    {
+        "id": "60db46e.e48bfb8",
+        "type": "debug",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "d31d8a31.35e838",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "58791834.427e78",
+        "name": "Stop",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "format": "<md-button id=\"stopSystem\" ng-click=\"send({payload: 'stop'})\">\n    Stop <span class=\"material-icons\">power_settings_new</span>\n</md-button>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 150,
+        "y": 1080,
+        "wires": [
+            [
+                "5d7474f9.3ac13c"
+            ]
+        ]
+    },
+    {
+        "id": "5d7474f9.3ac13c",
+        "type": "debug",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "de7729d1.f63248",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "name": "SYSTEM OVERVIEW",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "format": "<md-button ng-click=\"send({payload: 'SYSTEM_OVERVIEW'})\" style=\"border-radius: 0px; font-size: 10px; box-shadow: none;\">\n    SYSTEM OVERVIEW\n</md-button>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 200,
+        "y": 340,
+        "wires": [
+            [
+                "573739ab.55d358"
+            ]
+        ]
+    },
+    {
+        "id": "b535719a.3180e",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "name": "AGV SEARCHING",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "format": "<md-button ng-click=\"send({payload: 'AGV_SEARCHING'})\" style=\"border-radius: 0px; font-size: 10px; box-shadow: none;\">\n    AGV SEARCHING\n</md-button>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "8addc0d2.a9348"
+            ]
+        ]
+    },
+    {
+        "id": "e5f8f6f3.11b278",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "name": "POD SEARCHING",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "format": "<md-button ng-click=\"send({payload: 'POD_SEARCHING'})\" style=\"border-radius: 0px; font-size: 10px; box-shadow: none;\">\n    POD SEARCHING\n</md-button>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 190,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7be1b256.dc590c",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "name": "POD MOVING",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "format": "<md-button ng-click=\"send({payload: 'POD_MOVING'})\" style=\"border-radius: 0px; font-size: 10px; box-shadow: none;\">\n    POD MOVING\n</md-button>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 180,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5a65897.a8ffe8",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "name": "PODs REARRANGING",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "format": "<md-button ng-click=\"send({payload: 'PODs_REARRANGING'})\" style=\"border-radius: 0px; font-size: 10px; box-shadow: none;\">\n    PODs REARRANGING\n</md-button>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 210,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "17efb340.7ec4ed",
+        "type": "ui_svg_graphics",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "svgString": "<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\"\n width=\"80.000000pt\" height=\"50.000000pt\" \n preserveAspectRatio=\"xMidYMid meet\">\n<g transform=\"translate(20.00000,70.000000) scale(0.03500000,-0.03500000)\"\nfill=\"#ffffff\" stroke=\"none\">\n<path d=\"M1089 1851 l-29 -29 0 -316 0 -316 -392 0 c-422 0 -423 0 -462 -53\n-20 -27 -21 -42 -24 -333 l-3 -304 101 0 100 0 0 99 0 98 82 54 c107 70 108\n72 108 130 l0 49 305 0 305 0 0 -215 0 -215 35 0 c32 0 35 2 35 30 l0 30 343\n2 342 3 0 30 0 30 -277 3 -278 2 0 131 c0 128 0 130 -26 154 -19 18 -38 25\n-65 25 l-39 0 0 444 0 444 -31 26 c-43 36 -91 35 -130 -3z\"/>\n<path d=\"M1553 1560 c-12 -5 -30 -21 -40 -36 -16 -25 -18 -60 -21 -364 -2\n-184 0 -354 3 -378 3 -23 17 -55 30 -70 23 -27 24 -27 175 -30 103 -2 162 0\n182 9 59 24 58 19 58 432 0 240 -4 385 -10 398 -22 40 -61 49 -212 48 -79 0\n-153 -4 -165 -9z\"/>\n<path d=\"M119 423 c-59 -36 -76 -119 -39 -181 39 -64 20 -63 760 -60 l670 3\n27 27 c51 51 41 187 -16 218 -13 6 -251 10 -698 10 -609 -1 -681 -2 -704 -17z\"/>\n<path d=\"M1251 112 c-7 -14 -7 -24 2 -36 10 -14 29 -16 127 -14 l115 3 0 30 0\n30 -117 3 c-106 2 -118 1 -127 -16z\"/>\n</g>\n</svg>\n",
+        "clickableShapes": [],
+        "javascriptHandlers": [],
+        "smilAnimations": [],
+        "bindings": [],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": false,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": false,
+        "sendMsgWhenLoaded": false,
+        "outputField": "payload",
+        "editorUrl": "//drawsvg.org/drawsvg.html",
+        "directory": "",
+        "panning": "disabled",
+        "zooming": "disabled",
+        "panOnlyWhenZoomed": false,
+        "doubleClickZoomEnabled": false,
+        "mouseWheelZoomEnabled": false,
+        "name": "AGV Icon",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "c297a946.ba82e8"
+            ]
+        ]
+    },
+    {
+        "id": "a99dc5d0.13c758",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "name": "Spacer1",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 160,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f58189a0.b40af8",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "name": "Copy Right",
+        "order": 9,
+        "width": 3,
+        "height": 2,
+        "format": "<p style=\"font-size: 15px; text-align:center;\">@LamTran</p>\n<p style=\"font-size: 10px; text-align:center;\">All rights reserved</p>\n<p style=\"font-size: 10px; text-align:center;\">2020</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ac1f669.a25668",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "fc260c0b.664ca",
+        "name": "Spacer2",
+        "order": 8,
+        "width": 3,
+        "height": 4,
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 160,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f116eee5.2c4af",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "58791834.427e78",
+        "name": "Account",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "format": "<span class=\"material-icons\" style=\"font-size: 30px; text-align:center; cursor: pointer;\" ng-click=\"send({payload: 'account'})\">\naccount_circle\n</span>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 160,
+        "y": 1280,
+        "wires": [
+            [
+                "fc5abed8.8f1c5"
+            ]
+        ]
+    },
+    {
+        "id": "2cc68827.8ccb58",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "58791834.427e78",
+        "name": "Spacer1",
+        "order": 3,
+        "width": 16,
+        "height": 1,
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 160,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "edbaa92d.ae00d8",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "58791834.427e78",
+        "name": "Date time",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "format": "\n<div id=\"time\" style=\"font-size:15px; margin-top:8px; margin-left: 10px;\"></div>\n\n\n<script>\n    function updateClock() {\n    var now = new Date(), // current date\n        months = ['January', 'February', '...']; // you get the idea\n        time = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds(), // again, you get the idea\n\n        // a cleaner way than string concatenation\n        date = [now.getDate(), \n                now.getMonth() + 1,\n                now.getFullYear()].join(':');\n\n    // set the content of the element with the ID time to the formatted string\n    document.getElementById('time').innerHTML = [date, time].join(' / ');\n\n    // call this function again in 1000ms\n    setTimeout(updateClock, 1000);\n}\nupdateClock(); // initial call\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 160,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc5abed8.8f1c5",
+        "type": "debug",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "2bf254dd.b9fa1c",
+        "type": "ui_svg_graphics",
+        "z": "77f7877.e2cfb78",
+        "group": "e0f60492.6850d8",
+        "order": 1,
+        "width": 15,
+        "height": 13,
+        "svgString": "<svg x=\"0\" y=\"0\" height=\"100\" viewBox=\"0 0 100 100\" width=\"100\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"></svg>",
+        "clickableShapes": [
+            {
+                "targetId": "[id^=ID]",
+                "action": "click",
+                "payload": "",
+                "payloadType": "str",
+                "topic": "clicked"
+            }
+        ],
+        "javascriptHandlers": [],
+        "smilAnimations": [],
+        "bindings": [
+            {
+                "selector": "#log",
+                "bindSource": "payload.log",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#process",
+                "bindSource": "payload.process",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV1_v",
+                "bindSource": "payload.AGV1_v",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV1_batt",
+                "bindSource": "payload.AGV1_batt",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV1_pod",
+                "bindSource": "payload.AGV1_pod",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV1_x",
+                "bindSource": "payload.AGV1_x",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV1_y",
+                "bindSource": "payload.AGV1_y",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV1_ori",
+                "bindSource": "payload.AGV1_ori",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV2_v",
+                "bindSource": "payload.AGV2_v",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV2_batt",
+                "bindSource": "payload.AGV2_batt",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV2_pod",
+                "bindSource": "payload.AGV2_pod",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV2_x",
+                "bindSource": "payload.AGV2_x",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV2_y",
+                "bindSource": "payload.AGV2_y",
+                "bindType": "text",
+                "attribute": ""
+            },
+            {
+                "selector": "#AGV2_ori",
+                "bindSource": "payload.AGV2_ori",
+                "bindType": "text",
+                "attribute": ""
+            }
+        ],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": false,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": false,
+        "sendMsgWhenLoaded": false,
+        "outputField": "payload",
+        "editorUrl": "//drawsvg.org/drawsvg.html",
+        "directory": "D:\\flow\\vma\\",
+        "panning": "disabled",
+        "zooming": "disabled",
+        "panOnlyWhenZoomed": false,
+        "doubleClickZoomEnabled": false,
+        "mouseWheelZoomEnabled": false,
+        "name": "SIM Dashboard",
+        "x": 840,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "683dc15f.4798a",
+        "type": "ui_gauge",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "group": "a8c7d9a3.586368",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 810,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "1bb41709.ffb4e9",
+        "type": "ui_table",
+        "z": "77f7877.e2cfb78",
+        "group": "2e0d4d2d.123722",
+        "name": "",
+        "order": 1,
+        "width": 13,
+        "height": 6,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 830,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "2dbe382a.15b428",
+        "type": "ui_gauge",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "group": "a8c7d9a3.586368",
+        "order": 2,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 810,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "1eba22b8.7f163d",
+        "type": "ui_gauge",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "group": "a8c7d9a3.586368",
+        "order": 3,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 810,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "7fb923e3.f26ecc",
+        "type": "ui_gauge",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "group": "a8c7d9a3.586368",
+        "order": 4,
+        "width": 3,
+        "height": 3,
+        "gtype": "donut",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 810,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "caf557fb.08cfd8",
+        "type": "ui_chart",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "group": "a8c7d9a3.586368",
+        "order": 8,
+        "width": 13,
+        "height": 4,
+        "label": "chart",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 810,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57b5e711.50a288",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "a",
+        "payload": "12",
+        "payloadType": "num",
+        "x": 590,
+        "y": 700,
+        "wires": [
+            [
+                "caf557fb.08cfd8"
+            ]
+        ]
+    },
+    {
+        "id": "3cb5539d.a5390c",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "label",
+                "v": "b",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "13",
+        "payloadType": "num",
+        "x": 590,
+        "y": 740,
+        "wires": [
+            [
+                "caf557fb.08cfd8"
+            ]
+        ]
+    },
+    {
+        "id": "7f0795df.9d0adc",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "label",
+                "v": "c",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 590,
+        "y": 800,
+        "wires": [
+            [
+                "caf557fb.08cfd8"
+            ]
+        ]
+    },
+    {
+        "id": "766e69ca.0f0768",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "label",
+                "v": "v",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 590,
+        "y": 840,
+        "wires": [
+            [
+                "caf557fb.08cfd8"
+            ]
+        ]
+    },
+    {
+        "id": "f79d3324.23072",
+        "type": "ui_ui_control",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "events": "all",
+        "x": 600,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "573739ab.55d358",
+        "type": "template",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n  \"group\": {\n    \"hide\": [\n      \"AGV20_12_AS_AGV\",\n      \"AGV20_12_AS_AGV_ROTATION\",\n      \"AGV20_12_AS_AGV_SETTING\",\n      \"AGV20_12_AS_AGV_LOG\",\n      \"AGV20_12_AS_AGV_REALTIME_INFO\"\n    ],\n    \"show\": [\n      \"AGV20_12_SO_SIM_Dashboard\",\n      \"AGV20_12_SO_Log\",\n      \"AGV20_12_SO_Chart\"\n    ],\n    \"focus\": false\n  }\n}",
+        "output": "json",
+        "x": 420,
+        "y": 340,
+        "wires": [
+            [
+                "f79d3324.23072",
+                "7c4e4d47.587cd4"
+            ]
+        ]
+    },
+    {
+        "id": "7c4e4d47.587cd4",
+        "type": "debug",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "48bcc3fe.39291c",
+        "type": "ui_template",
+        "z": "77f7877.e2cfb78",
+        "group": "b9099129.e3a02",
+        "name": "AGV CAM",
+        "order": 2,
+        "width": 9,
+        "height": 10,
+        "format": "<!DOCTYPE html>\n<html>\n<body>\n\n<h2>AGV Live view</h2>\n\n<iframe src=\"http://192.168.1.26/\" height=\"100%\" width=\"100%\" title=\"Iframe Example\"></iframe>\n\n</body>\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 190,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8addc0d2.a9348",
+        "type": "template",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n  \"group\": {\n    \"hide\": [\n        \"AGV20_12_SO_SIM_Dashboard\",\n        \"AGV20_12_SO_Log\",\n        \"AGV20_12_SO_Chart\"\n    ],\n    \"show\": [\n        \"AGV20_12_AS_AGV\",\n        \"AGV20_12_AS_AGV_ROTATION\",\n        \"AGV20_12_AS_AGV_SETTING\",\n        \"AGV20_12_AS_AGV_LOG\",\n        \"AGV20_12_AS_AGV_REALTIME_INFO\"  \n    ],\n    \"focus\": false\n  }\n}",
+        "output": "json",
+        "x": 420,
+        "y": 380,
+        "wires": [
+            [
+                "f79d3324.23072"
+            ]
+        ]
+    },
+    {
+        "id": "17e74d5e.16a0b3",
+        "type": "ui_dropdown",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "label": "",
+        "tooltip": "Select an AGV",
+        "place": "Select an AGV",
+        "group": "b9099129.e3a02",
+        "order": 1,
+        "width": 9,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "",
+        "x": 860,
+        "y": 1580,
+        "wires": [
+            [
+                "3afd78ee.c9b168"
+            ]
+        ]
+    },
+    {
+        "id": "9efa58b8.ce06e8",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 330,
+        "y": 280,
+        "wires": [
+            [
+                "573739ab.55d358"
+            ]
+        ]
+    },
+    {
+        "id": "c297a946.ba82e8",
+        "type": "debug",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "2396aa36.dc4ad6",
+        "type": "function",
+        "z": "77f7877.e2cfb78",
+        "name": "Update dropbox",
+        "func": "let agvInfo = flow.get('agvInfo');\nlet agvList = [];\nfor(let i in agvInfo) {\n    let currentAgv = 'AGV ' + agvInfo[i].id;\n    agvList.push({[currentAgv]: agvInfo[i].id});\n}\nmsg = {};\nmsg.options = agvList;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 640,
+        "y": 1580,
+        "wires": [
+            [
+                "17e74d5e.16a0b3"
+            ]
+        ]
+    },
+    {
+        "id": "5f3c598a.cdb1d8",
+        "type": "complete",
+        "z": "77f7877.e2cfb78",
+        "name": "Get DB complete",
+        "scope": [
+            "6f162bea.add984"
+        ],
+        "uncaught": false,
+        "x": 200,
+        "y": 1580,
+        "wires": [
+            [
+                "6e8ed1a7.6ec75"
+            ]
+        ]
+    },
+    {
+        "id": "6e8ed1a7.6ec75",
+        "type": "delay",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 420,
+        "y": 1580,
+        "wires": [
+            [
+                "2396aa36.dc4ad6"
+            ]
+        ]
+    },
+    {
+        "id": "2baae54b.db202a",
+        "type": "ui_gauge",
+        "z": "77f7877.e2cfb78",
+        "name": "AGV Battery",
+        "group": "b9099129.e3a02",
+        "order": 3,
+        "width": 4,
+        "height": 2,
+        "gtype": "gage",
+        "title": "AGV Battery",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#cf0707",
+            "#e6e600",
+            "#34a215"
+        ],
+        "seg1": "30",
+        "seg2": "60",
+        "x": 930,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "5e3ce74.f1b9418",
+        "type": "ui_gauge",
+        "z": "77f7877.e2cfb78",
+        "name": "AGV Speed",
+        "group": "b9099129.e3a02",
+        "order": 5,
+        "width": 4,
+        "height": 2,
+        "gtype": "gage",
+        "title": "AGV Speed",
+        "label": "cm/s",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#c4c700",
+            "#039628",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "x": 930,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "b656a7ea.2bf7f8",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "19197e6c.525f92"
+            ]
+        ]
+    },
+    {
+        "id": "19197e6c.525f92",
+        "type": "change",
+        "z": "77f7877.e2cfb78",
+        "name": "Inition environment variables",
+        "rules": [
+            {
+                "t": "set",
+                "p": "agvSearching",
+                "pt": "global",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "systemInfo",
+                "pt": "global",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "systemInfo.runningStatus",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "database",
+                "pt": "global",
+                "to": "{}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3afd78ee.c9b168",
+        "type": "function",
+        "z": "77f7877.e2cfb78",
+        "name": "Set selected AGV",
+        "func": "let agvId                       = msg.payload;\nif(Array.isArray(agvId)) return;\nlet agvSearching                = flow.get('agvSearching');\n\nagvSearching.selectedAgv        = {};\nagvSearching.selectedAgv.agvId  = agvId;\nmsg                             = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1070,
+        "y": 1580,
+        "wires": [
+            [
+                "f7b25e05.eff43"
+            ]
+        ]
+    },
+    {
+        "id": "79f6a36f.fd87ac",
+        "type": "function",
+        "z": "77f7877.e2cfb78",
+        "name": "Update battery gauge",
+        "func": "let selectedAgv     = flow.get('agvSearching.selectedAgv.agvId');\n// if user not yet selected agv \nif(!selectedAgv) {\n    msg.payload = 0;\n    return msg;\n}\nlet agvInfo         = flow.get('agvInfo');\nlet agvBattLevel    = agvInfo[selectedAgv].batt;\nmsg.payload         = agvBattLevel;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 520,
+        "y": 1760,
+        "wires": [
+            [
+                "2baae54b.db202a"
+            ]
+        ]
+    },
+    {
+        "id": "1bcae640.5f566a",
+        "type": "link in",
+        "z": "77f7877.e2cfb78",
+        "name": "Update gauge chart",
+        "links": [
+            "f7b25e05.eff43"
+        ],
+        "x": 190,
+        "y": 1720,
+        "wires": [
+            [
+                "79f6a36f.fd87ac",
+                "3ed0031f.9535ac",
+                "3fed11cb.a9bcae"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "f7b25e05.eff43",
+        "type": "link out",
+        "z": "77f7877.e2cfb78",
+        "name": "To update chart",
+        "links": [
+            "1bcae640.5f566a"
+        ],
+        "x": 1300,
+        "y": 1580,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "cb746d87.33ed7",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 1780,
+        "wires": [
+            [
+                "79f6a36f.fd87ac",
+                "3ed0031f.9535ac",
+                "bb5b5c74.4d4b8",
+                "3fed11cb.a9bcae"
+            ]
+        ]
+    },
+    {
+        "id": "3ed0031f.9535ac",
+        "type": "function",
+        "z": "77f7877.e2cfb78",
+        "name": "Update speed gauge",
+        "func": "let selectedAgv     = flow.get('agvSearching.selectedAgv.agvId');\n// if user not yet selected agv \nif(!selectedAgv) {\n    msg.payload = 0;\n    return msg;\n}\nlet agvInfo         = flow.get('agvInfo');\nlet agvBattLevel    = agvInfo[selectedAgv].speed;\nmsg.payload         = agvBattLevel;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 520,
+        "y": 1800,
+        "wires": [
+            [
+                "5e3ce74.f1b9418"
+            ]
+        ]
+    },
+    {
+        "id": "bb5b5c74.4d4b8",
+        "type": "trigger",
+        "z": "77f7877.e2cfb78",
+        "name": "Update delay",
+        "op1": "",
+        "op2": "",
+        "op1type": "pay",
+        "op2type": "pay",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 210,
+        "y": 1840,
+        "wires": [
+            [
+                "73c29508.649e9c"
+            ]
+        ]
+    },
+    {
+        "id": "73c29508.649e9c",
+        "type": "function",
+        "z": "77f7877.e2cfb78",
+        "name": "Update speed and batt",
+        "func": "let selectedAgv     = flow.get('agvSearching.selectedAgv.agvId');\n// if user not yet selected agv \nif(!selectedAgv) return;\nlet query = \"SELECT batt,speed,orientation FROM agv WHERE id='\" + selectedAgv + \"';\"\nmsg.topic = query;\nmsg.agvId = selectedAgv;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 520,
+        "y": 1840,
+        "wires": [
+            [
+                "c27fb9e2.1634b8"
+            ]
+        ]
+    },
+    {
+        "id": "c27fb9e2.1634b8",
+        "type": "mysql",
+        "z": "77f7877.e2cfb78",
+        "mydb": "24f07f77.93bb3",
+        "name": "",
+        "x": 710,
+        "y": 1840,
+        "wires": [
+            [
+                "5cfd09a4.97fe08"
+            ]
+        ]
+    },
+    {
+        "id": "5cfd09a4.97fe08",
+        "type": "function",
+        "z": "77f7877.e2cfb78",
+        "name": "Update chart",
+        "func": "let updateResult    = msg.payload[0];\nlet agvId           = msg.agvId;\nlet agvInfo         = flow.get('agvInfo');\n\nagvInfo[agvId].batt         = updateResult.batt;\nagvInfo[agvId].speed        = updateResult.speed;\nagvInfo[agvId].orientation  = updateResult.orientation;\n\nlet msg2 = {};\nmsg2.payload    = updateResult.speed;\nmsg3            = {};\nmsg3.payload    = updateResult.orientation;\nmsg.payload     = updateResult.batt;\n\nreturn([msg, msg2, msg3]);",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 930,
+        "y": 1840,
+        "wires": [
+            [
+                "2baae54b.db202a"
+            ],
+            [
+                "5e3ce74.f1b9418"
+            ],
+            [
+                "1f0a0b37.90c515"
+            ]
+        ]
+    },
+    {
+        "id": "f66dcbab.6dbfb8",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 420,
+        "y": 1540,
+        "wires": [
+            [
+                "2396aa36.dc4ad6"
+            ]
+        ]
+    },
+    {
+        "id": "1f0a0b37.90c515",
+        "type": "ui_gauge",
+        "z": "77f7877.e2cfb78",
+        "name": "AGV Rotation",
+        "group": "b6e2dbef.bfb018",
+        "order": 1,
+        "width": "5",
+        "height": "5",
+        "gtype": "compass",
+        "title": "AGV Rotation",
+        "label": "degree",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "360",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 940,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "3fed11cb.a9bcae",
+        "type": "function",
+        "z": "77f7877.e2cfb78",
+        "name": "Update rotation gauge",
+        "func": "let selectedAgv     = flow.get('agvSearching.selectedAgv.agvId');\n// if user not yet selected agv \nif(!selectedAgv) {\n    msg.payload = 0;\n    return msg;\n}\nlet agvInfo         = flow.get('agvInfo');\nlet agvOrientation  = agvInfo[selectedAgv].orientation;\nmsg.payload         = agvOrientation;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 520,
+        "y": 1880,
+        "wires": [
+            [
+                "1f0a0b37.90c515"
+            ]
+        ]
+    },
+    {
+        "id": "81d9fb34.d80aa8",
+        "type": "ui_slider",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "label": "Max Speed",
+        "tooltip": "",
+        "group": "7fd55f12.2eabf",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 450,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e7e025e3.7b9cf8",
+        "type": "ui_switch",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "label": "LED",
+        "tooltip": "",
+        "group": "7fd55f12.2eabf",
+        "order": 16,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "highlight",
+        "oncolor": "#ffcc66",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "highlight",
+        "offcolor": "gray",
+        "x": 230,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b7920449.f76c28",
+        "type": "ui_switch",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "label": "Human sensor",
+        "tooltip": "",
+        "group": "7fd55f12.2eabf",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "wifi_tethering",
+        "oncolor": "green",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "portable_wifi_off",
+        "offcolor": "red",
+        "x": 260,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca53a880.199088",
+        "type": "ui_switch",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "label": "Safety sensor",
+        "tooltip": "",
+        "group": "7fd55f12.2eabf",
+        "order": 14,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "do_not_disturb_on",
+        "oncolor": "green",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "do_not_disturb_off",
+        "offcolor": "red",
+        "x": 260,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "52b5651a.3608cc",
+        "type": "ui_switch",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "label": "Power",
+        "tooltip": "",
+        "group": "7fd55f12.2eabf",
+        "order": 12,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "power_settings_new",
+        "oncolor": "green",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "power_settings_new",
+        "offcolor": "red",
+        "x": 230,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b61bd73.ce5042",
+        "type": "ui_switch",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "label": "Camera",
+        "tooltip": "",
+        "group": "7fd55f12.2eabf",
+        "order": 10,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "videocam",
+        "oncolor": "green",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "videocam_off",
+        "offcolor": "gray",
+        "x": 240,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7cf3b0c5.20546",
+        "type": "ui_button",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "group": "7fd55f12.2eabf",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#ff8566",
+        "icon": "refresh",
+        "payload": "reset",
+        "payloadType": "str",
+        "topic": "",
+        "x": 230,
+        "y": 2360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8f492a5.677a3",
+        "type": "ui_button",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "group": "7fd55f12.2eabf",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Stop",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#ff8000",
+        "icon": "pause",
+        "payload": "stop",
+        "payloadType": "str",
+        "topic": "",
+        "x": 230,
+        "y": 2320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ccd3de0.8584",
+        "type": "ui_button",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "group": "7fd55f12.2eabf",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Start",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#00b377",
+        "icon": "play_arrow",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "",
+        "x": 230,
+        "y": 2280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72bd1d9d.1df304",
+        "type": "ui_table",
+        "z": "77f7877.e2cfb78",
+        "group": "70752b10.710534",
+        "name": "AGV Log Table",
+        "order": 0,
+        "width": "14",
+        "height": "5",
+        "columns": [
+            {
+                "field": "col_agvId",
+                "title": "AGV ID",
+                "width": "20%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "col_time",
+                "title": "TimeStamp",
+                "width": "30%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "col_data",
+                "title": "Log data",
+                "width": "50%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 860,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "b18d60b8.d034c",
+        "type": "inject",
+        "z": "77f7877.e2cfb78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"col_agvId\":\"AGV01\",\"col_time\":\"11:23:12 / 30:12:2020\",\"col_data\":\"Dummy\"},{\"col_agvId\":\"AGV02\",\"col_time\":\"11:23:12 / 30:12:2020\",\"col_data\":\"Dummy\"},{\"col_agvId\":\"AGV02\",\"col_time\":\"11:23:12 / 30:12:2020\",\"col_data\":\"Dummy\"},{\"col_agvId\":\"AGV02\",\"col_time\":\"11:23:12 / 30:12:2020\",\"col_data\":\"Dummy\"}]",
+        "payloadType": "json",
+        "x": 570,
+        "y": 2200,
+        "wires": [
+            [
+                "72bd1d9d.1df304"
+            ]
+        ]
+    },
+    {
+        "id": "92ceb296.4b6b3",
+        "type": "ui_svg_graphics",
+        "z": "77f7877.e2cfb78",
+        "group": "51199fe1.21b2a",
+        "order": 1,
+        "width": "19",
+        "height": "6",
+        "svgString": "\n<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\"\n width=\"254.000000pt\" height=\"198.000000pt\" viewBox=\"0 0 254.000000 198.000000\"\n preserveAspectRatio=\"xMidYMid meet\">\n\n<g transform=\"translate(0.000000,198.000000) scale(0.100000,-0.100000)\"\nfill=\"#eeeeee\" stroke=\"none\">\n<path d=\"M1960 1640 c0 -5 -8 -10 -18 -10 -13 0 -24 -16 -39 -57 -17 -49 -24\n-59 -47 -61 -26 -3 -26 -4 -25 -85 1 -64 3 -74 9 -47 6 24 8 8 7 -55 -2 -86\n-1 -90 21 -93 13 -2 22 2 22 10 0 11 2 10 9 0 5 -8 17 -12 27 -10 16 3 19 12\n18 58 -1 30 1 48 3 38 5 -20 119 -32 258 -26 l90 3 -2 -37 c-1 -34 1 -38 22\n-38 13 0 26 6 28 13 4 10 6 10 6 0 1 -7 10 -13 21 -13 18 0 20 7 21 93 1 68 4\n83 9 57 6 -25 7 -13 6 45 -1 75 -2 80 -24 83 -23 4 -47 45 -36 63 3 5 1 9 -4\n9 -6 0 -8 9 -5 19 3 11 0 28 -6 38 -6 10 -11 12 -11 6 0 -8 -13 -13 -31 -13\n-17 0 -28 4 -24 10 4 6 -5 10 -19 10 -14 0 -26 -4 -26 -10 0 -5 -15 -10 -34\n-10 -19 0 -38 5 -41 10 -3 6 -46 10 -96 10 -53 0 -89 -4 -89 -10z m293 -37 c3\n-5 -57 -8 -133 -8 -76 0 -136 3 -133 8 2 4 62 7 133 7 71 0 131 -3 133 -7z\nm-108 -43 c0 -18 -6 -26 -23 -28 -24 -4 -38 18 -28 44 3 9 15 14 28 12 17 -2\n23 -10 23 -28z m-25 -50 c133 0 149 2 154 18 4 13 4 13 3 -3 -2 -19 -10 -20\n-157 -20 -148 0 -155 1 -156 20 -1 15 0 16 3 3 4 -16 20 -18 153 -18z m-194\n-24 c15 -8 32 -12 37 -9 5 3 8 0 5 -8 -2 -8 -17 -15 -31 -17 -22 -3 -27 1 -27\n17 0 31 -50 30 -51 -1 0 -13 -3 -17 -6 -10 -15 39 23 53 73 28z m461 -16 c1\n-22 1 -22 -4 -2 -6 30 -53 32 -53 1 0 -16 -5 -20 -27 -17 -32 4 -41 23 -12 25\n12 1 27 7 33 13 6 6 22 10 36 8 19 -2 25 -9 27 -28z m-359 -62 c-6 -18 -28\n-21 -28 -4 0 9 7 16 16 16 9 0 14 -5 12 -12z m210 1 c-2 -6 -8 -10 -13 -10 -5\n0 -11 4 -13 10 -2 6 4 11 13 11 9 0 15 -5 13 -11z m-341 -71 c-3 -8 -6 -5 -6\n6 -1 11 2 17 5 13 3 -3 4 -12 1 -19z m450 0 c-3 -8 -6 -5 -6 6 -1 11 2 17 5\n13 3 -3 4 -12 1 -19z\"/>\n<path d=\"M2100 1561 c0 -15 6 -21 21 -21 25 0 22 33 -4 38 -12 2 -17 -3 -17\n-17z m30 -1 c0 -5 -4 -10 -10 -10 -5 0 -10 5 -10 10 0 6 5 10 10 10 6 0 10 -4\n10 -10z\"/>\n<path d=\"M833 1583 c-70 -4 -73 -5 -73 -29 0 -19 7 -28 32 -36 29 -10 22 -13\n-103 -34 -160 -28 -149 -27 -149 -9 0 8 -9 15 -20 15 -12 0 -20 -7 -20 -17 0\n-10 -16 -29 -35 -43 -21 -16 -30 -29 -24 -35 5 -5 9 -20 9 -32 0 -27 48 -81\n59 -67 3 5 18 17 33 27 21 13 33 15 53 7 14 -5 25 -14 25 -20 0 -5 12 -11 28\n-11 16 -1 20 -3 10 -6 -20 -5 -23 -18 -8 -28 6 -3 10 -1 10 4 0 6 5 11 12 11\n9 0 9 -3 0 -12 -7 -7 -12 -19 -12 -27 0 -14 1 -14 10 -1 7 11 10 11 10 2 0\n-21 33 -9 52 18 44 64 41 62 53 27 7 -20 8 -37 2 -44 -6 -9 -6 -13 2 -13 6 0\n11 6 11 13 0 7 3 8 8 2 11 -16 34 -17 43 -3 7 10 9 10 9 -2 0 -8 7 -2 15 14 8\n15 15 34 15 42 0 20 19 27 37 12 9 -7 26 -12 37 -11 15 1 16 0 4 -3 -19 -6\n-21 -18 -8 -49 6 -13 9 -15 9 -5 1 9 4 11 9 5 4 -6 21 -12 38 -13 28 -2 31 1\n31 28 0 18 -6 31 -16 34 -9 3 -7 4 5 3 11 -1 28 4 37 12 15 12 17 11 17 -11 0\n-31 10 -41 27 -27 9 9 13 8 13 0 0 -6 -4 -11 -10 -11 -5 0 -10 -6 -10 -13 0\n-9 12 -14 33 -14 21 0 34 5 34 14 0 7 -4 13 -9 13 -4 0 -8 5 -8 11 0 8 4 9 13\n0 17 -14 27 -4 27 27 0 35 21 23 45 -24 17 -34 25 -40 51 -41 31 0 36 9 21 35\n-5 7 -3 12 3 12 6 0 8 5 5 10 -3 6 -1 10 5 10 7 0 9 -8 5 -21 -5 -15 -4 -19 4\n-15 6 4 11 13 11 21 0 7 7 16 16 19 23 9 24 8 24 -13 0 -11 5 -23 11 -27 8 -4\n9 0 4 15 -4 13 -2 21 5 21 6 0 8 -4 5 -10 -3 -5 -1 -10 6 -10 10 0 10 -3 1\n-12 -47 -47 47 -46 133 2 95 53 92 48 92 155 0 80 -2 95 -16 96 -9 1 -65 1\n-126 1 -92 -1 -105 1 -77 10 24 8 32 17 32 34 l0 24 -277 -2 c-153 -1 -311 -4\n-350 -5z m787 -98 c0 -11 -12 -15 -50 -15 -38 0 -50 4 -50 15 0 11 12 15 50\n15 38 0 50 -4 50 -15z m-1140 -160 c0 -5 -5 -3 -10 5 -5 8 -10 20 -10 25 0 6\n5 3 10 -5 5 -8 10 -19 10 -25z m40 5 c0 -5 -7 -7 -15 -4 -8 4 -15 8 -15 10 0\n2 7 4 15 4 8 0 15 -4 15 -10z m1108 -4 c-7 -8 -17 -12 -22 -9 -4 3 -2 9 5 14\n22 13 31 11 17 -5z m-34 -15 c7 -11 -22 -23 -35 -15 -5 3 -9 0 -9 -6 0 -6 -4\n-8 -10 -5 -5 3 -10 -1 -10 -10 0 -9 -4 -13 -10 -10 -5 3 -10 1 -10 -5 0 -6 -4\n-8 -10 -5 -5 3 -10 1 -10 -5 0 -7 -6 -5 -15 4 -19 19 -20 32 0 16 12 -10 15\n-7 21 14 3 15 15 27 27 29 40 8 66 7 71 -2z m-744 -10 c0 -6 -4 -12 -10 -16\n-5 -3 -8 -11 -6 -18 1 -7 1 -9 -1 -5 -2 4 -12 5 -21 2 -15 -5 -16 -4 -1 8 9 7\n14 19 12 26 -3 6 2 12 11 12 9 0 16 -4 16 -9z m306 -7 c-3 -9 -6 -23 -6 -31 0\n-22 -6 -14 -14 20 -5 21 -3 27 10 27 11 0 14 -5 10 -16z m302 5 c-2 -6 -8 -10\n-13 -10 -5 0 -11 4 -13 10 -2 6 4 11 13 11 9 0 15 -5 13 -11z m-751 -6 c-4 -3\n1 -12 11 -20 15 -13 15 -14 0 -9 -9 3 -19 2 -21 -2 -2 -4 -3 -2 -1 4 1 6 -3\n17 -9 23 -8 8 -6 11 8 11 10 0 15 -3 12 -7z m33 -3 c0 -5 -2 -10 -4 -10 -3 0\n-8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m70 6 c0 -3 -4 -8 -10 -11 -5\n-3 -10 -1 -10 4 0 6 5 11 10 11 6 0 10 -2 10 -4z m70 -3 c-1 -18 -18 -35 -24\n-24 -4 6 -2 11 4 11 6 0 8 5 5 10 -3 6 -1 10 4 10 6 0 11 -3 11 -7z m240 3 c0\n-3 -4 -8 -10 -11 -5 -3 -10 -1 -10 4 0 6 5 11 10 11 6 0 10 -2 10 -4z m70 -6\nc0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m80\n6 c0 -3 -4 -8 -10 -11 -5 -3 -10 -1 -10 4 0 6 5 11 10 11 6 0 10 -2 10 -4z\nm33 -7 c-6 -6 -10 -17 -9 -23 2 -6 1 -8 -1 -4 -2 4 -12 5 -21 2 -15 -5 -15 -4\n0 9 10 8 15 17 11 20 -3 4 2 7 12 7 14 0 16 -3 8 -11z m187 1 c0 -5 -2 -10 -4\n-10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m-460 -22 c0 -5 -4\n-7 -9 -4 -5 4 -12 0 -15 -6 -5 -11 -7 -11 -12 0 -3 6 -10 10 -15 6 -5 -3 -9\n-1 -9 4 0 5 14 9 30 9 17 0 30 -4 30 -9z\"/>\n<path d=\"M521 1292 c-1 -7 23 -24 52 -37 57 -27 77 -31 77 -14 0 6 -7 9 -15 5\n-8 -3 -15 -1 -15 5 0 6 -4 7 -10 4 -5 -3 -10 -1 -10 5 0 6 -4 8 -10 5 -5 -3\n-10 -2 -10 4 0 6 -7 7 -17 4 -12 -5 -14 -3 -8 7 6 10 4 12 -8 7 -9 -3 -18 -1\n-21 6 -3 9 -5 8 -5 -1z\"/>\n<path d=\"M735 1240 c-3 -5 -1 -10 4 -10 6 0 11 5 11 10 0 6 -2 10 -4 10 -3 0\n-8 -4 -11 -10z\"/>\n<path d=\"M885 1240 c-3 -5 -1 -10 4 -10 6 0 11 5 11 10 0 6 -2 10 -4 10 -3 0\n-8 -4 -11 -10z\"/>\n<path d=\"M935 1240 c-3 -5 -1 -10 4 -10 6 0 11 5 11 10 0 6 -2 10 -4 10 -3 0\n-8 -4 -11 -10z\"/>\n<path d=\"M1060 1238 c0 -4 9 -8 20 -8 11 0 20 4 20 8 0 4 -9 8 -20 8 -11 0\n-20 -4 -20 -8z\"/>\n<path d=\"M1210 1240 c0 -5 5 -10 11 -10 5 0 7 5 4 10 -3 6 -8 10 -11 10 -2 0\n-4 -4 -4 -10z\"/>\n<path d=\"M1360 1240 c0 -5 5 -10 11 -10 5 0 7 5 4 10 -3 6 -8 10 -11 10 -2 0\n-4 -4 -4 -10z\"/>\n<path d=\"M1886 1192 c-3 -5 15 -84 41 -176 l46 -166 214 0 c181 0 213 2 213\n15 0 12 -32 15 -202 17 l-203 3 -41 149 c-41 145 -55 178 -68 158z\"/>\n<path d=\"M670 1050 l-42 -50 -94 0 -94 0 0 -60 c0 -57 1 -60 25 -60 24 0 24 0\n21 -90 l-2 -90 106 0 c69 0 110 -4 118 -12 7 -7 12 -31 12 -54 0 -34 4 -44 21\n-49 11 -4 18 -9 16 -12 -3 -2 -14 0 -26 6 -15 8 -21 23 -23 59 l-3 47 -107 2\n-108 2 -2 -37 c-1 -20 0 -54 1 -74 2 -35 0 -38 -23 -38 -25 0 -26 -2 -26 -60\nl0 -60 599 0 599 0 7 37 c3 20 3 79 0 130 l-7 93 108 0 109 -1 105 -146 c97\n-135 130 -172 130 -144 0 6 -45 73 -100 150 -55 77 -100 146 -100 155 0 14\n-18 16 -126 16 l-127 0 7 110 c4 60 4 125 0 145 l-6 35 -485 0 -484 0 27 35\n26 35 269 0 c232 0 269 2 269 15 0 13 -37 15 -274 15 l-274 0 -42 -50z m900\n-90 c0 -18 -7 -20 -75 -20 -68 0 -75 2 -75 20 0 18 7 20 75 20 68 0 75 -2 75\n-20z m55 -120 l1 -135 -3 133 c-3 108 -6 132 -18 132 -12 0 -15 -21 -15 -122\nl0 -123 -57 0 -58 0 -5 85 c-5 84 -5 85 -32 88 l-28 3 -2 -93 -2 -93 -3 92 -4\n92 -32 4 c-18 2 -2 5 34 5 72 2 79 -3 79 -56 0 -26 2 -27 50 -24 l50 4 0 67\nc0 72 5 84 30 79 13 -3 15 -25 15 -138z m-645 115 c0 -6 -197 -105 -207 -104\n-6 0 194 106 205 108 1 1 2 -1 2 -4z m73 -12 c-13 -2 -33 -2 -45 0 -13 2 -3 4\n22 4 25 0 35 -2 23 -4z m85 -10 c-10 -2 -28 -2 -40 0 -13 2 -5 4 17 4 22 1 32\n-1 23 -4z m85 -10 c-13 -2 -33 -2 -45 0 -13 2 -3 4 22 4 25 0 35 -2 23 -4z\nm90 -10 c-13 -2 -33 -2 -45 0 -13 2 -3 4 22 4 25 0 35 -2 23 -4z m-700 -50\nc-7 -2 -19 -2 -25 0 -7 3 -2 5 12 5 14 0 19 -2 13 -5z m536 -8 c80 -41 43\n-165 -49 -165 -33 0 -80 53 -80 90 0 22 9 41 29 61 33 32 58 36 100 14z m-406\n-17 c-19 -9 -23 -19 -23 -54 0 -24 -3 -45 -7 -47 -5 -3 -6 16 -5 41 4 45 22\n73 46 71 6 0 1 -5 -11 -11z m120 -5 l-33 -4 0 -111 0 -110 78 2 c42 2 83 2 90\n1 21 -2 3 -21 -19 -21 -11 0 -18 -4 -14 -9 3 -5 1 -12 -5 -16 -5 -3 -10 0 -10\n8 0 20 -23 27 -78 26 -46 -2 -46 -2 -12 -9 30 -6 31 -8 9 -9 -15 0 -40 6 -55\n14 -20 10 -23 15 -11 15 15 0 17 12 17 108 0 60 3 112 7 115 3 4 20 6 37 5\nl31 -1 -32 -4z m127 -93 c0 -5 -7 -10 -15 -10 -8 0 -15 5 -15 10 0 6 7 10 15\n10 8 0 15 -4 15 -10z m63 -81 c-17 -17 -37 -1 -22 17 8 10 15 12 23 4 7 -7 7\n-13 -1 -21z m385 -137 c27 3 27 4 30 86 l3 82 59 0 60 0 0 -120 c0 -99 3 -120\n15 -120 12 0 15 22 18 115 l3 115 -1 -117 c0 -111 -1 -118 -20 -118 -18 0 -20\n8 -23 73 -3 66 -5 72 -25 73 -12 0 -34 2 -49 3 -25 1 -28 -2 -28 -29 0 -46\n-16 -55 -89 -53 -42 1 -52 3 -28 5 l37 4 2 87 2 87 3 -88 4 -88 27 3z m-300\n106 c11 -13 21 -27 21 -33 -1 -20 -33 -45 -58 -44 -25 1 -24 2 4 8 25 5 30 11\n30 35 0 36 -27 56 -52 40 -12 -8 -17 -23 -16 -45 1 -23 -1 -28 -8 -18 -13 21\n-11 40 8 61 22 24 45 23 71 -4z m-258 -108 c52 -27 91 -49 85 -49 -5 0 -53 22\n-105 49 -52 27 -90 49 -85 49 6 0 53 -22 105 -49z m-267 33 c-7 -2 -19 -2 -25\n0 -7 3 -2 5 12 5 14 0 19 -2 13 -5z m662 -53 c-27 -5 -66 -8 -85 -8 -32 1 -31\n2 10 8 25 4 63 7 85 7 38 0 37 0 -10 -7z m-142 -17 c-13 -2 -33 -2 -45 0 -13\n2 -3 4 22 4 25 0 35 -2 23 -4z m-90 -10 c-13 -2 -33 -2 -45 0 -13 2 -3 4 22 4\n25 0 35 -2 23 -4z m527 -13 c0 -18 -7 -20 -75 -20 -68 0 -75 2 -75 20 0 18 7\n20 75 20 68 0 75 -2 75 -20z\"/>\n<path d=\"M1055 835 c-16 -15 -25 -36 -25 -55 0 -38 39 -80 74 -80 39 0 79 41\n79 80 0 24 -7 40 -27 57 -35 30 -71 29 -101 -2z\"/>\n<path d=\"M665 370 c-3 -5 36 -67 87 -137 l93 -128 318 -3 c278 -2 317 0 317\n13 0 13 -40 15 -309 15 l-309 0 -89 125 c-48 68 -91 125 -95 125 -4 0 -10 -4\n-13 -10z\"/>\n</g>\n</svg>\n",
+        "clickableShapes": [],
+        "javascriptHandlers": [],
+        "smilAnimations": [],
+        "bindings": [],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": false,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": false,
+        "sendMsgWhenLoaded": false,
+        "outputField": "payload",
+        "editorUrl": "//drawsvg.org/drawsvg.html",
+        "directory": "",
+        "panning": "disabled",
+        "zooming": "disabled",
+        "panOnlyWhenZoomed": false,
+        "doubleClickZoomEnabled": false,
+        "mouseWheelZoomEnabled": false,
+        "name": "",
+        "x": 630,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25e965fd.0f69fa",
+        "type": "inject",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "ce345651.a299a8",
+                "3cb89d54.0f61f2",
+                "b3307949.62bb58",
+                "4a53b186.b32b7",
+                "b49f317b.fbaff",
+                "7081929a.2bf4cc",
+                "5d22d5de.f9600c",
+                "fd4b703d.85a77"
+            ]
+        ]
+    },
+    {
+        "id": "ce345651.a299a8",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Get map data",
+        "func": "let query       = 'SELECT * FROM map';\nmsg.topic       = query;\nmsg.queryType   = 'MAP'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 400,
+        "y": 120,
+        "wires": [
+            [
+                "44dfa3e9.94b0fc"
+            ]
+        ]
+    },
+    {
+        "id": "44dfa3e9.94b0fc",
+        "type": "mysql",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "mydb": "24f07f77.93bb3",
+        "name": "",
+        "x": 610,
+        "y": 220,
+        "wires": [
+            [
+                "a35c1448.f88658"
+            ]
+        ]
+    },
+    {
+        "id": "3cb89d54.0f61f2",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Get AGV data",
+        "func": "let query       = \"SELECT * FROM agv\";\nmsg.topic       = query;\nmsg.queryType   = 'AGV';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 400,
+        "y": 160,
+        "wires": [
+            [
+                "44dfa3e9.94b0fc"
+            ]
+        ]
+    },
+    {
+        "id": "1a4531f8.c5e48e",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Set agvInfo",
+        "func": "let result  = msg.payload;\n\nlet allData = global.get('database');\nif(!allData) allData = {};\n\nlet agvInfo = {};\nfor(let i in result) {\n    agvInfo[result[i].id] = result[i];\n}\nglobal.set('database.agvInfo', agvInfo);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 990,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a35c1448.f88658",
+        "type": "switch",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Query type",
+        "property": "queryType",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "MAP",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "AGV",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "POD",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CHARGER",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "STATION",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "BARRIER",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "MAP_SIZE",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 7,
+        "x": 750,
+        "y": 220,
+        "wires": [
+            [
+                "3bfeb906.068ac6"
+            ],
+            [
+                "1a4531f8.c5e48e"
+            ],
+            [
+                "2cfdfaac.c6f6f6"
+            ],
+            [
+                "40abf381.91f52c"
+            ],
+            [
+                "8a09aa72.4d2bc8"
+            ],
+            [
+                "a56219d8.d37068"
+            ],
+            [
+                "d8fb32cf.8c764"
+            ]
+        ]
+    },
+    {
+        "id": "3bfeb906.068ac6",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Set map info",
+        "func": "let result  = msg.payload;\n\nlet allData = global.get('database');\nif(!allData) allData = {};\n\nlet mapInfo = {};\nfor(let i in result) {\n    mapInfo[result[i].id] = result[i];\n}\nglobal.set('database.mapInfo', mapInfo);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 990,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b3307949.62bb58",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Get POD data",
+        "func": "let query       = \"SELECT * FROM pod\";\nmsg.topic       = query;\nmsg.queryType   = 'POD';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 400,
+        "y": 200,
+        "wires": [
+            [
+                "44dfa3e9.94b0fc"
+            ]
+        ]
+    },
+    {
+        "id": "2cfdfaac.c6f6f6",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Set podInfo",
+        "func": "let result  = msg.payload;\n\nlet allData = global.get('database');\nif(!allData) allData = {};\n\nlet podInfo = {};\nfor(let i in result) {\n    podInfo[result[i].id] = result[i];\n}\nglobal.set('database.podInfo', podInfo);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 990,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4a53b186.b32b7",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Get Charger data",
+        "func": "let query       = \"SELECT * FROM charger\";\nmsg.topic       = query;\nmsg.queryType   = 'CHARGER';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "44dfa3e9.94b0fc"
+            ]
+        ]
+    },
+    {
+        "id": "40abf381.91f52c",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Set chargerInfo",
+        "func": "let result  = msg.payload;\n\nlet allData = global.get('database');\nif(!allData) allData = {};\n\nlet chargerInfo = {};\nfor(let i in result) {\n    chargerInfo[result[i].id] = result[i];\n}\nglobal.set('database.chargerInfo', chargerInfo);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1000,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "b49f317b.fbaff",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Get Station data",
+        "func": "let query       = \"SELECT * FROM station\";\nmsg.topic       = query;\nmsg.queryType   = 'STATION';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 400,
+        "y": 280,
+        "wires": [
+            [
+                "44dfa3e9.94b0fc"
+            ]
+        ]
+    },
+    {
+        "id": "7081929a.2bf4cc",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Get obstacle data",
+        "func": "let query       = \"SELECT * FROM barrier\";\nmsg.topic       = query;\nmsg.queryType   = 'BARRIER';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 410,
+        "y": 320,
+        "wires": [
+            [
+                "44dfa3e9.94b0fc"
+            ]
+        ]
+    },
+    {
+        "id": "a56219d8.d37068",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Set barrierInfo",
+        "func": "let result  = msg.payload;\n\nlet allData = global.get('database');\nif(!allData) allData = {};\n\nlet barrierInfo = {};\nfor(let i in result) {\n    barrierInfo[result[i].id] = result[i];\n}\nglobal.set('database.barrierInfo', barrierInfo);\n\nmsg = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1000,
+        "y": 260,
+        "wires": [
+            [
+                "75e6858.c324e7c"
+            ]
+        ]
+    },
+    {
+        "id": "1be82182.0ca97e",
+        "type": "catch",
+        "z": "3a995584.ab3d9a",
+        "g": "8c429322.ad132",
+        "name": "Database e",
+        "scope": [
+            "44dfa3e9.94b0fc"
+        ],
+        "uncaught": false,
+        "x": 150,
+        "y": 540,
+        "wires": [
+            [
+                "d2b66545.f820d8"
+            ]
+        ]
+    },
+    {
+        "id": "d2b66545.f820d8",
+        "type": "delay",
+        "z": "3a995584.ab3d9a",
+        "g": "8c429322.ad132",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 380,
+        "y": 540,
+        "wires": [
+            [
+                "9b1a4e84.be7"
+            ]
+        ]
+    },
+    {
+        "id": "81a506fe.6ac608",
+        "type": "link in",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Database in",
+        "links": [
+            "9b1a4e84.be7"
+        ],
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "ce345651.a299a8",
+                "3cb89d54.0f61f2",
+                "b3307949.62bb58",
+                "4a53b186.b32b7",
+                "b49f317b.fbaff",
+                "7081929a.2bf4cc",
+                "5d22d5de.f9600c"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "9b1a4e84.be7",
+        "type": "link out",
+        "z": "3a995584.ab3d9a",
+        "g": "8c429322.ad132",
+        "name": "Reconnect to database",
+        "links": [
+            "81a506fe.6ac608"
+        ],
+        "x": 690,
+        "y": 540,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "1c188815.7505d8",
+        "type": "change",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Query done",
+        "rules": [
+            {
+                "t": "set",
+                "p": "systemInfo.queryComplete",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1310,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75e6858.c324e7c",
+        "type": "delay",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1160,
+        "y": 260,
+        "wires": [
+            [
+                "1c188815.7505d8"
+            ]
+        ]
+    },
+    {
+        "id": "3d0c4e7b.5a0822",
+        "type": "link in",
+        "z": "4c37ea4.c7cd314",
+        "name": "Display Map",
+        "links": [],
+        "x": 290,
+        "y": 220,
+        "wires": [
+            []
+        ],
+        "l": true
+    },
+    {
+        "id": "5d22d5de.f9600c",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Get map size data",
+        "func": "let query       = \"SELECT MAX(x), MAX(y) FROM map\";\nmsg.topic       = query;\nmsg.queryType   = 'MAP_SIZE';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 410,
+        "y": 360,
+        "wires": [
+            [
+                "44dfa3e9.94b0fc"
+            ]
+        ]
+    },
+    {
+        "id": "8a09aa72.4d2bc8",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Set stationInfo",
+        "func": "let result  = msg.payload;\n\nlet allData = global.get('database');\nif(!allData) allData = {};\n\nlet stationInfo = {};\nfor(let i in result) {\n    stationInfo[result[i].id] = result[i];\n}\nglobal.set('database.stationInfo', stationInfo);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1000,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d8fb32cf.8c764",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "Set map size",
+        "func": "let result  = msg.payload[0];\n\nlet mapSize = {};\nmapSize.x   = result[\"MAX(x)\"];\nmapSize.y   = result[\"MAX(y)\"];\n\nglobal.set('database.mapSize', mapSize);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 990,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "fd4b703d.85a77",
+        "type": "template",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "global map template",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n    \"Line\": {\n        \"command\": \"add_element\",\n        \"elementType\": \"line\",\n        \"elementId\": \"\",\n        \"elementAttributes\": {\n            \"x1\": \"\",\n            \"y1\": \"\",\n            \"x2\": \"\",\n            \"y2\": \"\"\n        },\n        \"elementStyleAttributes\": {\n            \"fill\": \"\",\n            \"stroke\": \"\",\n            \"stroke-width\": \"\"\n        }\n    },\n    \"Remove\": {\n        \"command\": \"remove_element\",\n        \"elementId\": \"\"\n    },\n    \"Round\": {\n        \"command\": \"add_element\",\n        \"elementType\": \"circle\",\n        \"elementId\": \"\",\n        \"elementAttributes\": {\n            \"cx\": \"\",\n            \"cy\": \"\",\n            \"r\": \"\"\n        },\n        \"elementStyleAttributes\": {\n            \"fill\": \"black\",\n            \"stroke\": \"black\",\n            \"stroke-width\": \"1px\"\n        }\n    },\n    \"Square\": {\n        \"command\": \"add_element\",\n        \"elementType\": \"rect\",\n        \"elementId\": \"\",\n        \"elementAttributes\": {\n            \"x\": \"\",\n            \"y\": \"\",\n            \"width\": \"\",\n            \"height\": \"\"\n        },\n        \"elementStyleAttributes\": {\n            \"fill\": \"\",\n            \"stroke\": \"\",\n            \"stroke-width\": \"\"\n        }\n    },\n    \"Charging_hub\": [\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"rect\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x\": \"\",\n                \"y\": \"\",\n                \"width\": \"\",\n                \"height\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"gold\",\n                \"stroke\": \"gold\",\n                \"stroke-width\": \"5px\"\n            }\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x1\": \"\",\n                \"y1\": \"\",\n                \"x2\": \"\",\n                \"y2\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"green\",\n                \"stroke-width\": \"8px\"\n            }\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x1\": \"\",\n                \"y1\": \"\",\n                \"x2\": \"\",\n                \"y2\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"green\",\n                \"stroke-width\": \"8px\"\n            }\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x1\": \"\",\n                \"y1\": \"\",\n                \"x2\": \"\",\n                \"y2\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"blue\",\n                \"stroke-width\": \"5px\"\n            }\n        }\n    ],\n    \"POD\": [\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"rect\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x\": \"\",\n                \"y\": \"\",\n                \"width\": \"\",\n                \"height\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"#ffcc66\",\n                \"stroke\": \"blue\",\n                \"stroke-width\": \"3px\"\n            }\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x1\": \"\",\n                \"y1\": \"\",\n                \"x2\": \"\",\n                \"y2\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"blue\",\n                \"stroke-width\": \"1px\"\n            }\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x1\": \"\",\n                \"y1\": \"\",\n                \"x2\": \"\",\n                \"y2\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"blue\",\n                \"stroke-width\": \"1px\"\n            }\n        }\n    ],\n    \"Column\": [\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"rect\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x\": \"\",\n                \"y\": \"\",\n                \"width\": \"\",\n                \"height\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"lightgray\",\n                \"stroke\": \"black\",\n                \"stroke-width\": \"1px\"\n            }\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x1\": \"\",\n                \"y1\": \"\",\n                \"x2\": \"\",\n                \"y2\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"black\",\n                \"stroke-width\": \"1px\"\n            }\n        }\n    ],\n    \"AGV\": [\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"circle\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"cx\": \"\",\n                \"cy\": \"\",\n                \"r\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"lightgreen\",\n                \"stroke\": \"black\",\n                \"stroke-width\": \"1px\"\n            }\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"rect\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x\": \"\",\n                \"y\": \"\",\n                \"width\": \"\",\n                \"height\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"red\",\n                \"stroke-width\": \"3px\"\n            }\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x1\": \"\",\n                \"y1\": \"\",\n                \"x2\": \"\",\n                \"y2\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"black\",\n                \"stroke-width\": \"3px\"\n            }\n        }\n    ],\n    \"Station\": [\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"rect\",\n            \"elementId\": \"\",\n            \"elementAttributes\": {\n                \"x\": \"\",\n                \"y\": \"\",\n                \"width\": \"\",\n                \"height\": \"\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"red\",\n                \"stroke-width\": \"5px\"\n            }\n        }\n    ],\n    \"DAS\": {\n        \"command\": \"add_element\",\n        \"elementType\": \"rect\",\n        \"elementId\": \"\",\n        \"elementAttributes\": {\n            \"x\": \"\",\n            \"y\": \"\",\n            \"width\": \"\",\n            \"height\": \"\"\n        },\n        \"elementStyleAttributes\": {\n            \"fill\": \"green\",\n            \"stroke\": \"green\",\n            \"stroke-width\": \"5px\"\n        }\n    },\n    \"SetAttribute\": {\n        \"command\": \"update_style\",\n        \"selector\": \"\",\n        \"attributeName\": \"fill\",\n        \"attributeValue\": \"\"\n    }\n}",
+        "output": "str",
+        "x": 420,
+        "y": 440,
+        "wires": [
+            [
+                "a3abfa19.d44738"
+            ]
+        ]
+    },
+    {
+        "id": "a3abfa19.d44738",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "global map template",
+        "func": "let json = JSON.parse(msg.payload);\nglobal.set('map_template', json);\nmsg = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 760,
+        "y": 440,
+        "wires": [
+            [
+                "9aa00e2.ba24df"
+            ]
+        ]
+    },
+    {
+        "id": "faac1a5d.0ee988",
+        "type": "function",
+        "z": "4c37ea4.c7cd314",
+        "name": "draw map",
+        "func": "const HEIGHT = global.get('height');\nconst WIDTH = global.get('width');\nconst grid = flow.get('grid');\nconst ORIGIN_X = -23 + grid;\nconst ORIGIN_Y = 40 + grid;\nlet charging_hub_position = global.get('chargingHub');\nlet agv_status = global.get('agv');\nlet commonFunction = global.get('commonFunction');\nlet POD_position = global.get('pod');\nlet Column_position = global.get('barrier'); \nlet Station_position = global.get('station');  \n\n/* draw floor's grid-----------------------------------------*/\nfor(let i = 0; i < WIDTH; i++ ){\n    for(let j = 0; j < HEIGHT; j++){\n        node.send(commonFunction.drawSquare(\"ID_square_\" + String(i) + String(j), ORIGIN_X + grid*i, ORIGIN_Y + grid*j, grid, grid, \"none\", \"black\", 0.3));\n    }\n}\nnode.send(commonFunction.drawLine(\"ID_bound\", ORIGIN_X, ORIGIN_Y, ORIGIN_X + grid * WIDTH, ORIGIN_Y, \"#ff751a\", 5));\nnode.send(commonFunction.drawLine(\"ID_bound\", ORIGIN_X, ORIGIN_Y, ORIGIN_X, ORIGIN_Y + grid * HEIGHT, \"#ff751a\", 5));\nnode.send(commonFunction.drawLine(\"ID_bound\", ORIGIN_X + grid * WIDTH, ORIGIN_Y, ORIGIN_X + grid * WIDTH, ORIGIN_Y + grid * HEIGHT, \"#ff751a\", 5));\nnode.send(commonFunction.drawLine(\"ID_bound\", ORIGIN_X, ORIGIN_Y + grid * HEIGHT, ORIGIN_X + grid * WIDTH, ORIGIN_Y + grid * HEIGHT, \"#ff751a\", 5));\n\n/* Add Charging hub -------------------------------------------*/\nfor(let index = 0; index < charging_hub_position.length; index++){\n    node.send(commonFunction.drawChargingHub(\"ID_charging_hub_\" + charging_hub_position[index][0], ORIGIN_X + grid * charging_hub_position[index][1], ORIGIN_Y + grid * charging_hub_position[index][2], charging_hub_position[index][3]));\n}\n/* Add POD-----------------------------------------------------*/\nfor(index = 0; index < POD_position.length; index++){\n    node.send(commonFunction.drawPOD('ID_' + POD_position[index][0], ORIGIN_X + grid * POD_position[index][1], ORIGIN_Y + grid * POD_position[index][2]));\n}\n\n\n/* Add Station------------------------------------------------*/\nfor(let i = 0; i < Station_position.length; i++ ){\n    node.send(commonFunction.drawSquare(\"ID_Station_\" + Station_position[i][0], ORIGIN_X + grid*Station_position[i][1], ORIGIN_Y + grid*Station_position[i][2], grid, grid, \"#d9ce57\", \"red\", 1));\n}\n\n/* Add Column-------------------------------------------------*/\nfor(i = 0; i < Column_position.length; i++){\n    node.send(commonFunction.drawSquare(\"ID_Column_\" + Column_position[i][0], ORIGIN_X + grid*Column_position[i][1], ORIGIN_Y + grid*Column_position[i][2], grid, grid, \"#a8a6a5\", \"none\", 1));\n    node.send(commonFunction.drawLine(\"ID_Column_\" + Column_position[i][0], ORIGIN_X + grid*Column_position[i][1], ORIGIN_Y + grid*Column_position[i][2], ORIGIN_X + grid*Column_position[i][1] + grid, ORIGIN_Y + grid*Column_position[i][2] + grid, \"black\", 2));\n}\n\n\n// function addAGV(x, y, rotation, index){\n//     msg.payload = json.AGV;\n//     msg.payload[0].elementId = \"ID_\" + String(index);\n//     msg.payload[1].elementId = \"ID_\" + String(index);\n//     msg.payload[2].elementId = \"ID_\" + String(index);\n    \n//     msg.payload[0].elementAttributes.x = ORIGIN_X + x * grid;\n//     msg.payload[0].elementAttributes.y = ORIGIN_Y + y * grid;\n//     msg.payload[0].elementAttributes.width = grid;\n//     msg.payload[0].elementAttributes.height = grid;\n    \n//     msg.payload[1].elementAttributes.cx = ORIGIN_X + x * grid + Math.floor(grid / 2);\n//     msg.payload[1].elementAttributes.cy = ORIGIN_Y + y * grid + Math.floor(grid / 2);\n//     msg.payload[1].elementAttributes.r = Math.floor(grid / 2);\n    \n//     msg.payload[2].elementAttributes.x1 = ORIGIN_X + x * grid + Math.floor(grid / 2);\n//     msg.payload[2].elementAttributes.y1 = ORIGIN_Y + y * grid + Math.floor(grid / 2);\n    \n//     if( rotation === 0){\n//         msg.payload[2].elementAttributes.x2 = ORIGIN_X + x * grid + Math.floor(grid / 2) ;\n//         msg.payload[2].elementAttributes.y2 = ORIGIN_Y + y * grid ;\n//     }\n//     else if( rotation === 90){\n//         msg.payload[2].elementAttributes.x2 = ORIGIN_X + x * grid + Math.floor(grid / 2) + Math.floor(grid / 2);\n//         msg.payload[2].elementAttributes.y2 = ORIGIN_Y + y * grid + Math.floor(grid / 2);\n//     }\n//     else if( rotation === 180){\n//         msg.payload[2].elementAttributes.x2 = ORIGIN_X + x * grid + Math.floor(grid / 2);\n//         msg.payload[2].elementAttributes.y2 = ORIGIN_Y + y * grid + Math.floor(grid / 2) + Math.floor(grid / 2);\n//     }\n//     else if( rotation === 270){\n//         msg.payload[2].elementAttributes.x2 = ORIGIN_X + x * grid + Math.floor(grid / 2) - Math.floor(grid / 2);\n//         msg.payload[2].elementAttributes.y2 = ORIGIN_Y + y * grid + Math.floor(grid / 2);\n//     }\n//     node.send(msg);\n// }\n\n\nfor(let i = 0; i < agv_status.length; i++){\n    node.send(commonFunction.addAGV(\"ID_\" + agv_status[i][0], ORIGIN_X + grid*agv_status[i][1], ORIGIN_Y + grid*agv_status[i][2], agv_status[i][3]));\n}\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 480,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2b77841.653468",
+        "type": "template",
+        "z": "4c37ea4.c7cd314",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "\n    {\n        \"command\": \"remove_element\",\n        \"selector\": \"[id^=ID]\"\n    }",
+        "output": "json",
+        "x": 480,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c5bfb1a.c1ed04",
+        "type": "function",
+        "z": "4c37ea4.c7cd314",
+        "name": "Draw map",
+        "func": "const mapDashboardHeight    = 690;\nconst mapDashboardWidth     = 800;\n\nlet svgTemplate = global.get('map_template');\nlet gridSize    = 0;\nlet data        = global.get('database');\nlet mapSize     = data.mapSize;\n\n// Determine fit width or height\n// Fit width\nif (mapDashboardWidth/mapSize.x < mapDashboardHeight/mapSize.y) {\n    gridSize = Math.floor(mapDashboardWidth/mapSize.x);\n}\n// Fit height\nelse {\n    gridSize = Math.floor(mapDashboardHeight/mapSize.y);\n}\n\nnode.warn(gridSize);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 580,
+        "y": 140,
+        "wires": [
+            [
+                "9c3ed8f0.6deb28"
+            ]
+        ]
+    },
+    {
+        "id": "4a1429ae.a0f7a8",
+        "type": "inject",
+        "z": "4c37ea4.c7cd314",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "7c5bfb1a.c1ed04"
+            ]
+        ]
+    },
+    {
+        "id": "9c3ed8f0.6deb28",
+        "type": "debug",
+        "z": "4c37ea4.c7cd314",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9aa00e2.ba24df",
+        "type": "function",
+        "z": "3a995584.ab3d9a",
+        "g": "131b47d9.b692e8",
+        "name": "common function",
+        "func": "let json            = global.get('map_template');\nlet commonFunction  = {};\n\ncommonFunction.drawSquare = function drawSquare(id, x, y, height, width, fill, stroke, stroke_width){\n    let square = json.Square;\n    square.elementId = id;\n    square.elementAttributes.x = x;\n    square.elementAttributes.y = y;\n    square.elementAttributes.width = width;\n    square.elementAttributes.height = height;\n    square.elementStyleAttributes.fill = fill;\n    square.elementStyleAttributes.stroke = stroke;\n    square.elementStyleAttributes[\"stroke-width\"] = String(stroke_width) + \"px\";\n    msg.payload = square;\n    return msg;\n}\n\ncommonFunction.drawLine = function drawLine(id, x1, y1, x2 ,y2, stroke, stroke_width){\n    let line = json.Line;\n    line.elementId = String(id);\n    line.elementAttributes.x1 = x1;\n    line.elementAttributes.y1 = y1;\n    line.elementAttributes.x2 = x2;\n    line.elementAttributes.y2 = y2;\n    line.elementStyleAttributes.stroke = stroke;\n    line.elementStyleAttributes[\"stroke-width\"] = String(stroke_width) + \"px\";\n    msg.payload = line;\n    return msg;\n}\n\n\ncommonFunction.changeColor = function changeColor(id, color){\n    let change = json.SetAttribute;\n    change.selector = \"#ID_\" + String(id);\n    change.attributeValue = color;\n    msg.payload = change;\n    return msg;\n}\n\nglobal.set('commonFunction', commonFunction)\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1010,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    }
+]
